@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+*.mov
+*.mp4
+*.m4a
+*.wav
+*.pem
+*.key
+.media/
+tmp/

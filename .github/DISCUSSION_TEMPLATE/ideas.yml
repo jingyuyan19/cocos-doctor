@@ -1,0 +1,19 @@
+title: "[Idea] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the real debugging problem, current workaround, and evidence you would need. Do not post private project files, contact details, or credentials.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and current workaround
+    validations:
+      required: true
+  - type: textarea
+    id: trustworthy-outcome
+    attributes:
+      label: What would make the outcome trustworthy?
+    validations:
+      required: true

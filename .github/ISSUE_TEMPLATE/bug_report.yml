@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a reproducible, non-sensitive Cocos Doctor problem
+title: "[Bug] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not upload commercial projects, scenes, credentials, personal details, or unreviewed logs. Security issues belong in private vulnerability reporting.
+  - type: dropdown
+    id: creator-version
+    attributes:
+      label: Cocos Creator version
+      options:
+        - 3.8.8
+        - Other 3.8.x
+        - Other or unknown
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating system
+      placeholder: macOS 15.x, Windows 11, etc.
+    validations:
+      required: true
+  - type: dropdown
+    id: symptom
+    attributes:
+      label: Symptom area
+      options:
+        - Installation or activation
+        - Node visibility
+        - Button interaction
+        - Layout or Widget
+        - Preview, Apply, verification, or Undo
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Use a disposable project and remove all business assets and identifiers.
+      placeholder: Steps, expected result, and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: safe-evidence
+    attributes:
+      label: Sanitized evidence
+      description: Optional redacted text only. Do not paste secrets or complete logs.
+  - type: checkboxes
+    id: safety-confirmation
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I confirm this report contains no commercial project files, personal data, credentials, or undisclosed vulnerability details.
+          required: true
