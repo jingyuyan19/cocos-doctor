@@ -1,0 +1,36 @@
+title: "[Q&A] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask a focused, non-sensitive question about Cocos Doctor. Do not post commercial project files, personal contact details, credentials, complete logs, or undisclosed vulnerability details.
+  - type: dropdown
+    id: creator-version
+    attributes:
+      label: Cocos Creator version
+      options:
+        - 3.8.8
+        - Other 3.8.x
+        - Other or unknown
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Explain the result you are trying to achieve and where you are blocked.
+    validations:
+      required: true
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What have you already tried?
+      description: Share only sanitized steps or evidence from a disposable project.
+  - type: checkboxes
+    id: safety-confirmation
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I confirm this question contains no commercial project files, personal data, credentials, or undisclosed vulnerability details.
+          required: true
