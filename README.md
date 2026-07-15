@@ -17,10 +17,12 @@ Cocos Doctor 是一个面向 Cocos Creator 3.8.x 的 evidence-first Inspector。
 
 ## Alpha 参与和反馈
 
-目前不在 GitHub 公开分发 Alpha ZIP。希望了解测试进展，可以前往现有的 [Cocos 中文社区主题](https://forum.cocos.org/t/topic/176550)；招募跟帖可能仍在等待版主审核。请不要在公开 Issue、Discussion 或论坛回复中留下手机号、邮箱、微信号、商业项目文件或包含凭据的日志。
+本轮计划邀请最多 8 位成年 Cocos Creator 开发者完成一次约 20–25 分钟的盲测。报名条件、隐私边界和参加方式请见 [Cocos Doctor closed Alpha 招募](https://github.com/jingyuyan19/cocos-doctor/discussions/1)。如果准备参加盲测，请不要先观看完整演示。
+
+目前不在 GitHub 公开分发 Alpha ZIP。GitHub 招募公告是主入口；[Cocos 中文社区主题](https://forum.cocos.org/t/topic/176550) 仅用于背景和备用通知。请不要在公开 Issue、Discussion 或论坛回复中留下手机号、邮箱、微信号、商业项目文件或包含凭据的日志。
 
 - 普通问题与可复现 Bug：使用 GitHub Issues。
-- 产品想法与使用讨论：使用 GitHub Discussions（启用后）。
+- 产品想法与使用讨论：使用 [GitHub Discussions](https://github.com/jingyuyan19/cocos-doctor/discussions)。
 - 安全问题：遵循 [SECURITY.md](SECURITY.md)，不要公开漏洞细节。
 - 隐私边界：[PRIVACY.md](PRIVACY.md)
 - 兼容范围：[docs/compatibility.md](docs/compatibility.md)
@@ -29,7 +31,7 @@ Cocos Doctor 是一个面向 Cocos Creator 3.8.x 的 evidence-first Inspector。
 
 Cocos Doctor is an evidence-first Inspector for Cocos Creator 3.8.x. It is currently a closed Alpha. This public repository hosts product information, safety documentation, release notes, and community feedback; it does not currently publish the product source or an installable Alpha package.
 
-Do not post commercial project files, personal contact details, credentials, or sensitive logs in public Issues or Discussions.
+The current blind Alpha study is recruiting up to eight adult Cocos Creator developers. See the [Alpha recruitment discussion](https://github.com/jingyuyan19/cocos-doctor/discussions/1) before watching the full demo. Do not post commercial project files, personal contact details, credentials, or sensitive logs in public Issues or Discussions.
 
 ## 独立产品声明
 
