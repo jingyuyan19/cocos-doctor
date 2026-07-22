@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "sourceManifestSha256": "3565bc1235bec77209b66fa7a0291f3432cf320d960ad03fb5708e67971aee04",
+  "files": [
+    {
+      "path": "assets/icon.svg",
+      "bytes": 221,
+      "sha256": "43286f06f31f7f5571278e449060e5e92ddf808c9d7b3295138a33fabb3db62b"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 756,
+      "sha256": "6e14d99c13a302f966be6efa2b911ab88f9c2c89f3f7cce53e9b72fd6f7acb34"
+    },
+    {
+      "path": "fixtures/button-blocked.json",
+      "bytes": 831,
+      "sha256": "426cfdcb044ea10ef013c6252acca8994b5bee84c2fca16b0559f5dead68f3d6"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 609,
+      "sha256": "519a78c52a331d7b51e26936f3ae1fbe7166696d4102cd8014761ff414869662"
+    },
+    {
+      "path": "PRIVACY.md",
+      "bytes": 1401,
+      "sha256": "7d89d621b7a9ea85852759cda0760dbbcbc23a8221b0686eed1b511f16d211e5"
+    },
+    {
+      "path": "PURCHASE-NOTICE.md",
+      "bytes": 1013,
+      "sha256": "84ff4c09fe598a890ba823627202fa7c6617321db0525b335bcf4abbeefbaa22"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2391,
+      "sha256": "aaf61d16b22ee4f58dde8c6a3f2e6f458a3bef637655693d6124618a703c9b09"
+    },
+    {
+      "path": "samples/checkup-matrix-report.json",
+      "bytes": 1317,
+      "sha256": "bfdfc6d4c2322445e01557a84ff9ff87b69f38886cdd3e4b203d5c2d91796505"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1531,
+      "sha256": "14f79514d31a7109dd78439e97a6d43bb42f4d495715b3a1873a44470e7ef7be"
+    },
+    {
+      "path": "SUPPORT.md",
+      "bytes": 1061,
+      "sha256": "918a8acb7d0cdae95d052c68fe9f696dda64a405e99fc5466037d87df42a98c3"
+    }
+  ]
+}

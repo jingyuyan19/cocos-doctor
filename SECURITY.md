@@ -1,20 +1,19 @@
-# Security Policy
+# Security
 
-## Supported versions
+## Design controls
 
-Cocos Doctor 仍处于 closed Alpha。只有邀请中明确提供并带有校验值的版本属于当前支持范围；公开仓库暂不提供安装包。
+- No AI-generated code execution, `eval`, arbitrary property setter or raw scene/prefab write.
+- One typed property operation per Patch, with session/revision/node/old-value preconditions.
+- One-time main-process Preview authority; failed, expired or mismatched attempts require a new Preview.
+- Doctor-owned Chrome uses a private debugging pipe and an isolated temporary profile, not a listening CDP port or an existing browser session.
+- Runtime wrappers are memory-only and restore patched engine functions, overlay state, viewport and temporary CSS on stop/page close/unload.
+- Cause conclusions require linked engine evidence; rectangle overlap never proves the hit receiver.
+- Matrix analysis is structural/layout-only, bounded to the qualified node capacity and reports incomplete capture as an integrity failure.
+- AI receives only a fixed minimized projection after visible per-request consent and cannot create local actions.
+- Commercial packaging and public export both use exact file allowlists and reject source, tests, private data, stale build files and symlink escapes.
 
 ## Reporting a vulnerability
 
-请不要在公开 Issue、Discussion 或论坛回复中披露漏洞细节、访问令牌、商业工程、场景文件或含敏感内容的日志。
+Use the Cocos Store resource support channel for a private first report. Do not include a commercial project, credentials, buyer/order data or the commercial ZIP. A minimal disposable reproduction and the public Doctor error code are preferred.
 
-远程仓库启用后，优先使用 GitHub 的 **Private vulnerability reporting**。如果该入口暂不可用，请通过 [Cocos 中文社区主题](https://forum.cocos.org/t/topic/176550)向维护者发送论坛私信，只描述影响范围和可安全联系的方式；维护者确认安全渠道后再传输复现材料。
-
-报告中可以先提供：
-
-- Cocos Doctor 版本与 SHA-256；
-- Cocos Creator 完整版本和操作系统；
-- 问题类别与最小复现步骤；
-- 是否涉及场景修改、无法 Undo、数据外发或凭据暴露。
-
-不要发送真实商业项目。若必须提供复现，请先制作不含业务资源、账号、密钥和个人信息的最小工程。
+Public issues may be opened at <https://github.com/jingyuyan19/cocos-doctor/issues> only after confidential material has been removed.

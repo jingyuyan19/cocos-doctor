@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "cocos-doctor.public-fixture/1",
+  "fixtureId": "synthetic-button-blocked",
+  "purpose": "Documentation-only example of a button whose real Preview receiver is another UI node.",
+  "syntheticEvidence": {
+    "input": "mouse-down",
+    "engineHitTestForTarget": false,
+    "finalReceiverRole": "blocking-overlay",
+    "terminalPhase": "BlockInputEvents",
+    "propagationStopped": true
+  },
+  "demonstrates": {
+    "verdict": "FAIL",
+    "rootKind": "receiver-diverted",
+    "geometryInferenceUsed": false,
+    "automaticPatchAvailable": false
+  },
+  "notes": [
+    "This file is synthetic, non-executable and contains no production Probe payload.",
+    "A real report requires same-transaction DOM-to-PAL linkage and engine observations.",
+    "Rectangle overlap alone must not produce this conclusion."
+  ]
+}

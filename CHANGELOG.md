@@ -1,8 +1,13 @@
-# Changelog
+# Public changelog
 
-## Unreleased
+## 1.0.0 — Store launch candidate
 
-- 建立 Cocos Doctor 的公开产品、隐私、安全和反馈入口。
-- 当前仍为 closed Alpha；没有公开安装包或开源源码发布。
+- Runtime Cause Trace with real Preview hit-test/receiver/propagation evidence and bounded handler attribution.
+- Two-sample repair Replay plus exact Undo restoration Replay.
+- Four-screen structural/layout Matrix with viewport restoration, stable result merging and a qualified node-capacity gate.
+- Offline-first home panel with optional, per-request-consented AI explanation.
+- One-time Preview authority and explicit inverse-backed Undo.
+- Fail-closed Runtime repair verification and panel-close revocation of unused AI disclosures.
+- Public privacy, security, purchase and support documentation plus sanitized samples.
 
-正式版本只记录已经发布且可以验证的内容，不把计划功能写成已交付能力。
+Historical Alpha checkpoints are not interchangeable commercial releases.

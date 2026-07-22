@@ -1,18 +1,11 @@
 # Privacy
 
-Cocos Doctor Alpha 的产品原则是本地优先：默认不上传项目、场景、EvidencePack、日志或诊断结果。
+Cocos Doctor is offline-first and has no seller-operated product account, diagnostic cloud or analytics endpoint. Product telemetry is off.
 
-这个公开仓库本身不运行产品遥测。GitHub、Cocos 中文社区及其他外部服务对访问和账号数据的处理受其各自隐私政策约束。
+Scene evidence, runtime input evidence, Matrix snapshots and transaction receipts are processed locally in Cocos Creator and Doctor-owned Preview processes. Runtime probes are evaluated in memory and removed by workflow cleanup. The product does not automatically upload scenes, prefabs, assets, source files, screenshots, traces or crash reports.
 
-## Public channels
+Optional AI explanation requires a key entered in the panel. The key stays in main-process memory for the current Creator session and is not read from environment variables, project files or previous chats. Before every request, the panel shows the complete minimized disclosure and requires a fresh hash-bound “allow once” decision; closing the panel revokes an unused disclosure. The disclosure excludes raw evidence, names, paths, URLs, source content, local identifiers, runtime receipts and the key.
 
-请勿在公开 Issue、Discussion 或论坛回复中提交：
+Support attachments are always user-selected. Remove credentials, personal/company data and proprietary project material before posting a public issue.
 
-- 姓名、手机号、邮箱、微信号或公司内部账号；
-- 商业项目、场景、Prefab、资源或未脱敏截图；
-- API key、密码、访问令牌、许可证或构建凭据；
-- 未经同意的录屏、语音、聊天记录或日志。
-
-## Alpha studies
-
-受邀 Alpha 研究使用匿名编号。录屏、日志和匿名引用分别征求同意；拒绝任何可选收集不影响参与。联系人映射、原始筛选答案和未经同意的材料不会存放在这个公开仓库中。
+The detailed notice is included in the paid package. The user-selected third-party AI service, Cocos Store, Cocos Creator, GitHub and the operating system remain independent services with their own terms when a user chooses to use them.
