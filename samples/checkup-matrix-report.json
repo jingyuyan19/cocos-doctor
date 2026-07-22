@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "cocos-doctor.matrix-report/1",
+  "scanId": "sample-matrix-report",
+  "scene": {
+    "id": "synthetic-scene",
+    "revision": "structure:sample"
+  },
+  "summary": {
+    "profiles": 4,
+    "structuralConfirmed": 1,
+    "needsConfirmation": 1,
+    "suppressed": 0
+  },
+  "structuralConfirmed": [
+    {
+      "ruleId": "MX004_SAFE_AREA_INTRUSION",
+      "title": "Required UI enters the safe area",
+      "profiles": [
+        "phone-19.5-9-safe-area"
+      ],
+      "recommendation": "Review the SafeArea/Widget relationship before changing the scene."
+    }
+  ],
+  "needsConfirmation": [
+    {
+      "ruleId": "MX003_OUTSIDE_VIEWPORT",
+      "title": "Review-only UI is outside the viewport",
+      "profiles": [
+        "tablet-4-3"
+      ],
+      "recommendation": "Confirm the intended responsive behavior; no automatic patch is offered."
+    }
+  ],
+  "integrity": {
+    "status": "pass",
+    "fixedProfileCoverage": true,
+    "readOnly": true,
+    "viewportRestored": true,
+    "projectUnchanged": true
+  },
+  "performance": {
+    "status": "pass",
+    "qualifiedNodesPerProfile": 1000
+  },
+  "boundaries": {
+    "checks": "structural-and-layout-only",
+    "inputHitTesting": "unsupported-do-not-infer",
+    "overlapInference": false,
+    "projectWrites": false,
+    "aiRequired": false
+  }
+}

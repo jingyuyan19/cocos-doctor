@@ -1,13 +1,9 @@
 # Support
 
-公开支持目前用于文档问题、可脱敏复现的 Bug 和产品建议，不提供商业项目代调服务。
+Cocos Doctor 1.0 launch qualification covers Cocos Creator 3.8.8 on macOS with a compatible local Chrome installation. Windows, Linux, Creator 3.9+, and other unqualified environments are outside the initial verified platform promise.
 
-提交 Bug 前请准备：
+For paid-order or resource support, use the Cocos Store order/resource message channel. For sanitized documentation issues and minimal disposable reproductions, use <https://github.com/jingyuyan19/cocos-doctor/issues>.
 
-- Cocos Creator 完整版本；
-- 操作系统；
-- Cocos Doctor 版本与安装包 SHA-256（若已受邀）；
-- 症状类别和最小复现步骤；
-- 实际结果与预期结果。
+Include the Cocos Doctor version, Cocos Creator version, operating system, visible rule/error code and the stage that failed. Do not post project files, company or person names, paths, URLs, credentials, private screenshots, order details, the commercial ZIP or decompiled product code.
 
-不要上传生产工程、场景文件、业务资源或未经检查的完整日志。安全问题请遵循 [SECURITY.md](SECURITY.md)。
+Support covers documented installation and workflows, reproducible product defects, and privacy/security questions for supported versions. Custom gameplay/UI implementation, third-party extensions, unsupported Creator versions and AI-provider account/billing issues are outside guaranteed product support.

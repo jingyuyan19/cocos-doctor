@@ -1,9 +1,7 @@
-# Copyright Notice
+# Public repository license
 
-Copyright © 2026 VberAI. All rights reserved.
+Copyright 2026 Jimmy.
 
-This repository is publicly visible, but it is not currently an open-source software distribution. Except for rights required to view and interact with the repository through GitHub, no license is granted to copy, modify, distribute, sublicense, sell, or create derivative works from Cocos Doctor product materials, binaries, branding, or non-user-authored repository content.
+The documentation and sanitized, non-executable sample files in this public repository are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-Third-party names, trademarks, links, and materials remain subject to their respective owners' terms. User-authored Issues and Discussions remain subject to GitHub's terms and the representations in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Any future open-source component will carry its own explicit license in the directory or release that contains it.
+This license does not apply to the paid Cocos Doctor package, private core, production runtime files, product artwork outside this repository, Cocos/Cocos Creator marks or third-party services. Purchase and use of the commercial product are governed by the applicable Cocos Store transaction terms and the notices included with that package.
